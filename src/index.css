@@ -27,6 +27,10 @@ h2 {
   line-height: 1.1;
 }
 
+h3 {
+  text-align: center;
+  margin-top: 0.5rem;
+}
 
 .cards {
   display: flex;

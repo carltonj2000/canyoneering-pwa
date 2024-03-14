@@ -7,6 +7,7 @@ function App() {
         <h1>Canyoneering</h1>
       </nav>
 
+      <h3>Minimal Starter Information</h3>
       <div className="cards">
         <div className="card">
           <div className="title">
@@ -77,6 +78,42 @@ function App() {
             <p>
               This stopper knot can be used at the end of a rappel rope, a
               stopper for a bowline, in a double fisherman's, etc.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Double Overhand Stopper</h2>
+            <a href="https://www.animatedknots.com/double-overhand-stopper-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img
+              src={images.doubleFishermans}
+              alt="Double Fisherman's Bend"
+            ></img>
+            <p>
+              Ties two rope ends together. Often use to make slings/loops for
+              rope grabs, autoblocks, ascending, personal anchor systems, etc.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Prusik</h2>
+            <a href="https://www.animatedknots.com/prusik-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.prusik} alt="Prusik"></img>
+            <p>
+              A rope grab that is often used as a rappel autoblock or for
+              ascending. Works best when the prusik is 3mm smaller than the rope
+              being grabbed.
             </p>
           </div>
         </div>
