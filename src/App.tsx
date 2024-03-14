@@ -117,6 +117,36 @@ function App() {
             </p>
           </div>
         </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Purcell Prusik Loop</h2>
+            <a href="https://www.animatedknots.com/purcell-prusik-loop-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.purcellPrusik} alt="Purcell Prusik Loop"></img>
+            <p>An adjustable tether often used as a personal anchor system.</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Bowline Knot</h2>
+            <a href="https://www.animatedknots.com/bowline-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.bowline} alt="Bowline Knot"></img>
+            <p>
+              Often used to tie a fixed rope to a tree. A safety knot such as a
+              double overhand is used with the bowline because it can shake
+              loose without it.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
