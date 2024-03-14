@@ -8,6 +8,11 @@ import doubleFishermans from "/images/doubleFishermans.png";
 import prusik from "/images/prusik.png";
 import purcellPrusik from "/images/purcellPrusik.png";
 import bowline from "/images/bowline.png";
+import doubleSheetBend from "/images/doubleSheetBend.png";
+import munterMuleOverhand from "/images/munterMuleOverhand.png";
+import swissSeatFront from "/images/swissSeatFront.webp";
+import swissSeatBack from "/images/swissSeatBack.webp";
+import emergencyHarness from "/images/emergencyHarness.png";
 
 export default {
   cloveHitch,
@@ -20,4 +25,9 @@ export default {
   prusik,
   purcellPrusik,
   bowline,
+  doubleSheetBend,
+  munterMuleOverhand,
+  swissSeatFront,
+  swissSeatBack,
+  emergencyHarness,
 };

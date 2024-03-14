@@ -72,3 +72,9 @@ h3 {
 .content > p {
   text-align: center;
 }
+
+.sideBySideImg {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

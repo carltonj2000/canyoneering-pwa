@@ -84,8 +84,8 @@ function App() {
 
         <div className="card">
           <div className="title">
-            <h2>Double Overhand Stopper</h2>
-            <a href="https://www.animatedknots.com/double-overhand-stopper-knot">
+            <h2>Double Fisherman's Bend</h2>
+            <a href="https://www.animatedknots.com/double-fishermans-bend-knot">
               Tying Instructions
             </a>
           </div>
@@ -145,6 +145,73 @@ function App() {
               double overhand is used with the bowline because it can shake
               loose without it.
             </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Double Sheep Bend</h2>
+            <a href="https://www.animatedknots.com/sheet-bend-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.doubleSheetBend} alt="Double Sheet Bend"></img>
+            <p>
+              Used to tie two ropes with different width together. Can close
+              both ends with double overhands.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Munter Mule Overhand</h2>
+            <a href="https://www.animatedknots.com/munter-mule-combination-hitch-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img
+              src={images.munterMuleOverhand}
+              alt="Munter Mule Overhand"
+            ></img>
+            <p>
+              Often used instead of a clove hitch on a carabiner in order to
+              provide a contingency to lower a person who is stuck on rappel.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Emergency Harness</h2>
+            <a href="https://www.animatedknots.com/hasty-harness-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.emergencyHarness} alt="Emergency Harness"></img>
+            <p>
+              If you forget or have issues with your primary harness an
+              emergency harness can be constructed. A{" "}
+              <a href="https://www.instructables.com/How-to-Tie-a-Swiss-Seat/">
+                Swiss Seat
+              </a>{" "}
+              is another harness setup and pictures follow.
+            </p>
+            <div className="sideBySideImg">
+              <img
+                src={images.swissSeatFront}
+                alt="Swiss Seat Front"
+                width="200"
+              />
+              <img
+                src={images.swissSeatBack}
+                alt="Swiss Seat Back"
+                width="200"
+              />
+            </div>
           </div>
         </div>
       </div>
