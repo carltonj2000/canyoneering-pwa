@@ -10,10 +10,11 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: [
         "logo.svg",
-        "images/binerBlock.png",
-        "images/cloveHitch.png",
-        "images/waterKnot.png",
-        "images/wraptwopulloneanchor.jpg",
+        "images/*",
+        // "images/binerBlock.png",
+        // "images/cloveHitch.png",
+        // "images/waterKnot.png",
+        // "images/wraptwopulloneanchor.jpg",
       ],
       manifest: {
         name: "Canyoneering",

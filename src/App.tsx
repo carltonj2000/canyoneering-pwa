@@ -33,12 +33,51 @@ function App() {
             <img src={images.waterKnot} alt="water know"></img>
             <p>
               Used to tie webbing ends together. Usually used on a webbing
-              anchor. Make sure tails are at least fist width long.
+              anchor. Make sure tails are at least fist width long and minimize
+              webbing twists.
             </p>
             <img
               src={images.wraptwopulloneanchor}
               alt="Wrap 2 pull 1 anchor"
             ></img>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Anchor On Two Bolts</h2>
+            <a href="https://www.canyoneeringusa.com/techtips/579">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img
+              src={images.twoBoltAnchorWithWebbing}
+              alt="two bolt anchor with webbing"
+            ></img>
+            <p>
+              Webbing attached to two bolts is redundant and distributes the
+              rappel weight onto two bolts.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Double Overhand Stopper</h2>
+            <a href="https://www.animatedknots.com/double-overhand-stopper-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img
+              src={images.doubleOverhand}
+              alt="Double Overhand Stopper"
+            ></img>
+            <p>
+              This stopper knot can be used at the end of a rappel rope, a
+              stopper for a bowline, in a double fisherman's, etc.
+            </p>
           </div>
         </div>
       </div>
