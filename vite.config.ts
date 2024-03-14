@@ -16,9 +16,9 @@ export default defineConfig({
         "images/wraptwopulloneanchor.jpg",
       ],
       manifest: {
-        name: "Text To Speech",
-        short_name: "t2s",
-        description: "Speaks Entered Text",
+        name: "Canyoneering",
+        short_name: "Canyon",
+        description: "Canyoneering - Minimal Information",
         theme_color: "#ffffff",
         icons: [
           {
