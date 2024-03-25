@@ -13,6 +13,7 @@ import munterMuleOverhand from "/images/munterMuleOverhand.png";
 import swissSeatFront from "/images/swissSeatFront.webp";
 import swissSeatBack from "/images/swissSeatBack.webp";
 import emergencyHarness from "/images/emergencyHarness.png";
+import alpineButterfly from "/images/alpineButterfly.png";
 
 export default {
   cloveHitch,
@@ -30,4 +31,5 @@ export default {
   swissSeatFront,
   swissSeatBack,
   emergencyHarness,
+  alpineButterfly,
 };
