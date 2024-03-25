@@ -174,8 +174,8 @@ function App() {
           <div className="content">
             <img src={images.alpineButterfly} alt="Alpine Butterfly Loop"></img>
             <p>
-              Use to isolate a damaged part of the rope, so that you can
-              continue use it until it you have the opportunity to replace it.
+              Used to isolate a damaged part of the rope, so that you can
+              continue using it until it you have the opportunity to replace it.
             </p>
           </div>
         </div>
