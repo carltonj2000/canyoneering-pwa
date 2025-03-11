@@ -11,6 +11,18 @@ function App() {
       <div className="cards">
         <div className="card">
           <div className="title">
+            <h2>Figure 8</h2>
+            <a href="https://www.animatedknots.com/figure-8-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.figure8} alt="figure 8"></img>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
             <h2>Clove Hitch</h2>
             <a href="https://www.animatedknots.com/clove-hitch-knot-rope-end">
               Tying Instructions

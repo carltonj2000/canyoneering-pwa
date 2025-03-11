@@ -14,8 +14,10 @@ import swissSeatFront from "/images/swissSeatFront.webp";
 import swissSeatBack from "/images/swissSeatBack.webp";
 import emergencyHarness from "/images/emergencyHarness.png";
 import alpineButterfly from "/images/alpineButterfly.png";
+import figure8 from "/images/figure8.png";
 
 export default {
+  figure8,
   cloveHitch,
   binerBlock,
   waterKnot,
