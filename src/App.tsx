@@ -23,6 +23,24 @@ function App() {
 
         <div className="card">
           <div className="title">
+            <h2>Figure 8 Follow Through Loop</h2>
+            <a href="https://www.animatedknots.com/figure-8-follow-through-loop-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img
+              src={images.figure8followThrough}
+              alt="figure 8 follow through loop"
+            ></img>
+            <p>
+              Used to secure to ring, quick link, carabiner or your own harness.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
             <h2>Clove Hitch</h2>
             <a href="https://www.animatedknots.com/clove-hitch-knot-rope-end">
               Tying Instructions
@@ -32,46 +50,6 @@ function App() {
             <img src={images.cloveHitch} alt="clove hitch"></img>
             <p>Used to secure one end of the rope while repelling.</p>
             <img src={images.binerBlock} alt="Carabiner Block"></img>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="title">
-            <h2>Water Knot</h2>
-            <a href="https://www.animatedknots.com/water-knot">
-              Tying Instructions
-            </a>
-          </div>
-          <div className="content">
-            <img src={images.waterKnot} alt="water know"></img>
-            <p>
-              Used to tie webbing ends together. Usually used on a webbing
-              anchor. Make sure tails are at least fist width long and minimize
-              webbing twists.
-            </p>
-            <img
-              src={images.wraptwopulloneanchor}
-              alt="Wrap 2 pull 1 anchor"
-            ></img>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="title">
-            <h2>Anchor On Two Bolts</h2>
-            <a href="https://www.canyoneeringusa.com/techtips/579">
-              Tying Instructions
-            </a>
-          </div>
-          <div className="content">
-            <img
-              src={images.twoBoltAnchorWithWebbing}
-              alt="two bolt anchor with webbing"
-            ></img>
-            <p>
-              Webbing attached to two bolts is redundant and distributes the
-              rappel weight onto two bolts.
-            </p>
           </div>
         </div>
 
@@ -115,31 +93,17 @@ function App() {
 
         <div className="card">
           <div className="title">
-            <h2>Prusik</h2>
-            <a href="https://www.animatedknots.com/prusik-knot">
+            <h2>Alpine Butterfly Loop</h2>
+            <a href="https://www.animatedknots.com/alpine-butterfly-loop-knot">
               Tying Instructions
             </a>
           </div>
           <div className="content">
-            <img src={images.prusik} alt="Prusik"></img>
+            <img src={images.alpineButterfly} alt="Alpine Butterfly Loop"></img>
             <p>
-              A rope grab that is often used as a rappel autoblock or for
-              ascending. Works best when the prusik is 3mm smaller than the rope
-              being grabbed.
+              Used to isolate a damaged part of the rope, so that you can
+              continue using it until it you have the opportunity to replace it.
             </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="title">
-            <h2>Purcell Prusik Loop</h2>
-            <a href="https://www.animatedknots.com/purcell-prusik-loop-knot">
-              Tying Instructions
-            </a>
-          </div>
-          <div className="content">
-            <img src={images.purcellPrusik} alt="Purcell Prusik Loop"></img>
-            <p>An adjustable tether often used as a personal anchor system.</p>
           </div>
         </div>
 
@@ -178,17 +142,71 @@ function App() {
 
         <div className="card">
           <div className="title">
-            <h2>Alpine Butterfly Loop</h2>
-            <a href="https://www.animatedknots.com/alpine-butterfly-loop-knot">
+            <h2>Water Knot</h2>
+            <a href="https://www.animatedknots.com/water-knot">
               Tying Instructions
             </a>
           </div>
           <div className="content">
-            <img src={images.alpineButterfly} alt="Alpine Butterfly Loop"></img>
+            <img src={images.waterKnot} alt="water knot"></img>
             <p>
-              Used to isolate a damaged part of the rope, so that you can
-              continue using it until it you have the opportunity to replace it.
+              Used to tie webbing ends together. Usually used on a webbing
+              anchor. Make sure tails are at least fist width long and minimize
+              webbing twists.
             </p>
+            <img
+              src={images.wraptwopulloneanchor}
+              alt="Wrap 2 pull 1 anchor"
+            ></img>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Anchor On Two Bolts</h2>
+            <a href="https://www.canyoneeringusa.com/techtips/579">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img
+              src={images.twoBoltAnchorWithWebbing}
+              alt="two bolt anchor with webbing"
+            ></img>
+            <p>
+              Webbing attached to two bolts is redundant and distributes the
+              rappel weight onto two bolts.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Prusik</h2>
+            <a href="https://www.animatedknots.com/prusik-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.prusik} alt="Prusik"></img>
+            <p>
+              A rope grab that is often used as a rappel autoblock or for
+              ascending. Works best when the prusik is 3mm smaller than the rope
+              being grabbed.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">
+            <h2>Purcell Prusik Loop</h2>
+            <a href="https://www.animatedknots.com/purcell-prusik-loop-knot">
+              Tying Instructions
+            </a>
+          </div>
+          <div className="content">
+            <img src={images.purcellPrusik} alt="Purcell Prusik Loop"></img>
+            <p>An adjustable tether often used as a personal anchor system.</p>
           </div>
         </div>
 
