@@ -9,7 +9,11 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "serve": "PORT=3173 serve dist",
-    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg"
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg",
+    "docker:build": "docker build -t canyoneering_i .",
+    "docker:dev": "docker run --name canyoneering -d -p 8080:80 canyoneering_i",
+    "docker:compose:up": "echo docker compose up -d",
+    "docker:compose:restart": "echo docker build -t canyoneering_i ."
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -1,5 +1,10 @@
 # Canyoneering PWA
 
+```bash
+docker build -t canyoneering_i .
+docker run --name canyoneering -d -p 8080:80 canyoneering_i
+```
+
 Use vite with vanilla typescript.
 
 | Script  | type  | Port |
